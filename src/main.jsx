@@ -5,10 +5,11 @@ import './index.css'
 import Navbar from './components/navbar.jsx'
 import Hero from './components/Hero.jsx'
 import Footer from './components/Footer.jsx'
+import Login from './components/login.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <Navbar></Navbar>
-  <Hero></Hero>
+  <Login></Login>
   <Footer></Footer>
   </React.StrictMode>,
 )
